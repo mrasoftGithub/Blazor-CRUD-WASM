@@ -25,7 +25,7 @@
             <label for="Omschrijving" class="col=sm-2 col-form-label">Omschrijving</label>
         </div>
         <div class="col-sm-10">
-            <InputText id="Omschrijving" @bind-Value="eigenaar.Omschrijving" class="form-control" placeholder="Geef een omschrijving voor de eigenaar..." />
+            <InputText id="Omschrijving" @bind-Value="eigenaar!.Omschrijving" class="form-control" placeholder="Geef een omschrijving voor de eigenaar..." />
         </div>
     </div>
 
@@ -34,7 +34,7 @@
             <label for="" class="col=sm-2 col-form-label">Voornaam</label>
         </div>
         <div class="col-sm-10">
-            <InputText id="Voornaam" @bind-Value="eigenaar.Voornaam" class="form-control" placeholder="De voornaam van de eigenaar..." />
+            <InputText id="Voornaam" @bind-Value="eigenaar!.Voornaam" class="form-control" placeholder="De voornaam van de eigenaar..." />
         </div>
     </div>
 
@@ -43,7 +43,7 @@
             <label for="" class="col=sm-2 col-form-label">Achternaam</label>
         </div>
         <div class="col-sm-10">
-            <InputText id="Achternaam" @bind-Value="eigenaar.Achternaam" class="form-control" placeholder="De achternaam van de eigenaar..." />
+            <InputText id="Achternaam" @bind-Value="eigenaar!.Achternaam" class="form-control" placeholder="De achternaam van de eigenaar..." />
         </div>
     </div>
 
@@ -52,7 +52,7 @@
             <label for="" class="col=sm-2 col-form-label">Regio</label>
         </div>
         <div class="col-sm-10">
-            <InputText id="Regio" @bind-Value="eigenaar.Regio" class="form-control" placeholder="De regio van de eigenaar..." />
+            <InputText id="Regio" @bind-Value="eigenaar!.Regio" class="form-control" placeholder="De regio van de eigenaar..." />
         </div>
     </div>
     <br />
